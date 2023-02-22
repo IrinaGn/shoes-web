@@ -3,10 +3,10 @@
     <div class="roww">
       <div class="container">
         <!-- <div> -->
-          <h5>
-            Мы ремонтируем обувь различных брендов. Вот некоторые из чаще
-            встречающихся брендов.
-          </h5>
+        <h5>
+          Мы ремонтируем обувь различных брендов. Вот некоторые из чаще
+          встречающихся брендов.
+        </h5>
         <!-- </div> -->
         <div class="brand-list">
           <img src="../img/brands/chanel.png" alt="" class="brand" />
@@ -37,11 +37,11 @@ export default {
   // left: -10px;
   // position: absolute;
   margin: -8px;
-  margin-top: 10px;
+  margin-top: 0;
   // padding-top: 10px;
+  padding: 1%;
 }
 .roww {
-  
   padding-top: 10px;
 }
 h3 {
@@ -71,6 +71,7 @@ a {
 .container {
   margin-left: 10%;
   margin-right: 10%;
+  // margin: 10%;
 }
 .logo {
   width: 20%;
